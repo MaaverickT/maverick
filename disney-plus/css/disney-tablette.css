@@ -1,0 +1,617 @@
+@media screen and (min-width:481px) and (max-width:1039px){
+    main {
+        background-color: #040814;
+      }
+      section {
+         background-color: #040814;
+      }
+     
+      #bloc01 {
+         background-image: url(/img/background-disney-plus.png);
+         background-repeat: no-repeat;
+         background-size: contain;
+         height: 100vh;
+         padding: 5.6vw;
+         box-sizing: border-box;
+         width: 100%;
+         top: 0px;
+         background-position: top right;
+      }
+     
+      #bloc02 {
+           padding: 5.6vw;
+         box-sizing: border-box;
+         width: 100%;
+         background-image: url(/img/andor.jpeg);
+         background-repeat: no-repeat;
+         background-size: contain;
+        height: 100vh;
+       
+       
+       
+      }
+     
+     
+      #bloc03 {
+           padding: 5.6vw;
+         box-sizing: border-box;
+         width: 100%;
+         background-image: url(/img/logo-kenobi.jpeg);
+         background-repeat: no-repeat;
+         background-size: contain;
+        height: 100vh;
+         /*padding-left: 74px;
+         padding-right: 74px;
+         margin-top: 253px; */
+       
+           margin-top: 60px;
+      }
+     
+     
+      #bloc04 {
+           padding: 5.6vw;
+         box-sizing: border-box;
+         width: 100%;
+        height: 60vh;
+        background-color:  #040814;
+           padding-top: 10px;
+      }
+         
+      #bloc05 {
+         width: 100%;
+         height: 90vh;
+   
+      }
+         
+     
+      nav{
+      position: fixed;
+       right: 0px;
+       padding: 10px;
+         background-color: #040814;
+         position: fixed;
+         width: 100%;
+         z-index: 200;
+         /* z-index sert a mettre different plan*/
+         height: 69,94px;
+         display: flex;
+      }
+      
+   
+     
+      .carré {
+       
+        /* position: absolute; */
+         height: 700px;
+         max-width: 750px;
+         /* max width : sert a delimiter le texte du bloc en gros la limitation d'un carré par exemple*/
+        color: white;
+        text-align:left;
+        left: 80px;
+        font-family: Avenir, sans-serif;
+        font-size: 22.50px;
+     
+      }
+     
+     
+      .Paragraphe {
+         color: #C0C0C0C0;
+      }
+     
+      .Adresse-mail {
+         color: gray;
+      }
+     
+      .email {
+       
+          background-color: rgb(49, 52, 62);
+          border-radius: 4px 0 0 4px ;
+          padding: 8px 90px;
+          border: rgb(49, 52, 62) solid 1px;
+          height: 48px;
+          padding: 0px 12px;  
+          width: 50%;
+         
+      }
+      .email:focus{
+        color: white;
+        outline: 0;
+        border: gray 1px solid;
+      }
+       .Continuer {
+         /* position: absolute; */
+         /* position absolute permet que adresse-email et continuer soit coller*/
+         color: white;
+         background-color: #0063e5;
+         padding: 8px 44px;
+         /* padding : taille du contour du carré continuer en haut et en bas*/
+            border: none;
+            height: 50px;
+            left: -6px;
+            position: relative;
+       }
+       .sous-paragraphe {
+         color: #C0C0C0C0;
+         font-family: Avenir, sans-serif;
+         font-size: 21px;
+      }
+    
+    
+      .S-IDENTIFIER a{
+        /* pour le lien qui emene a l'identification  */
+        color: white;
+        transition-duration: 0.2s;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    text-align: center;
+    }
+      .S-IDENTIFIER {
+       
+         position: absolute; 
+          top: 15px; 
+       right: 20px; 
+        width: 162px;
+         height: 50px;
+         background-color: #040814d5;
+         border: rgba(255, 255, 255, 0.63) 1px solid;
+         border-radius: 2px;
+         color: white;
+         font-family: Avenir, sans-serif;
+         font-size: 19px;
+      transition-duration: 0.2s;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        /*! justify-self: center; */
+        /*! justify-items: center; */
+        /*! padding-top: 27px; */
+        padding-top: 13px;
+        /*! border: ; */
+        box-sizing: border-box;
+      }
+     
+       .S-IDENTIFIER:hover {
+        background-color: white;
+        color: black;
+        /* hover = survoler, la souris survole la case s'identifier donc s adevient blanc*/
+       }
+   
+   
+   
+       .nav {
+         background-color: #040814;
+         position: fixed;
+         width: 100%;
+         z-index: 200;
+         /* z-index sert a mettre different plan*/
+         height: 69,94px;
+       }
+   
+       .Inscription {
+         position: absolute; 
+         top: 15px; 
+         right: 200px; 
+          width: 162px;
+           height: 50px;
+           background-color: blue;
+           border: rgba(255, 255, 255, 0.63) 1px solid;
+           border-radius: 2px;
+           color: white;
+        
+         font-family: Avenir, sans-serif;
+         font-size: 19px;
+       }
+   
+       nav img {
+         margin-left: 60px;
+       }
+   
+       .afficher {
+        opacity: 1 !important;
+      }
+   
+      /* -----------------------------------------------------------------------BLOC 1 --------------------------------------------------------------------------------*/
+     
+     
+      /* -----------------------------------------------------------------------BLOC 2 --------------------------------------------------------------------------------*/
+     
+      .disney-bloc2 {
+      /* position: absolute; */
+         color: white;
+         font-family: Avenir, sans-serif;
+         font-size: 44px;
+         left: 81px;
+         /*! margin-top: 10; */
+        width: 1000px;
+      }
+     
+      .para-bloc2 {
+         color: #C0C0C0C0;
+         /* position: absolute; */
+         font-size: 20px;
+         max-width: 630px;
+         left: 81px;
+         margin-top: 26px;
+         font-family: Avenir, sans-serif;
+      }
+     
+      h2 {
+       /* position: absolute; */
+         color: white;
+         font-size: 26px;
+       }
+     
+       /* -----------------------------------------------------------------------BLOC 2 --------------------------------------------------------------------------------*/
+     
+       
+      /* -----------------------------------------------------------------------BLOC 3 --------------------------------------------------------------------------------*/
+       .bloc3-h1 {
+        /* position: absolute; */
+        color: white;
+        font-family: Avenir, sans-serif ;
+        font-size: 40px;
+        text-align: center;
+        /*! top: 2030px; */
+        /*! left: 50%; */
+        /*! translate: -50%; */
+        top: -234px;
+        position: relative;
+      }
+      .bloc3-para {
+        /* position: absolute; */
+        color: #C0C0C0C0;
+        text-align: center;
+        font-family: Avenir, sans-serif ;
+        font-size: 20px;
+        /*! top: 2130px; */
+        /*! left: 50%; */
+        /*! translate: -50%; */
+        position: relative;
+        top: -234px;
+      }
+      /* -----------------------------------------------------------------------BLOC 3 --------------------------------------------------------------------------------*/
+        /* -----------------------------------------------------------------------BLOC 4 --------------------------------------------------------------------------------*/
+     
+     
+      /*.cercles {
+       /* position: absolute; */
+     
+     
+     
+      .bobine {
+       left: 45px;
+      }
+     
+     
+      .divertissement {
+      /* position: absolute; */
+      left: 117px;
+       font-family: Avenir, sans-serif ;
+       font-size: 28px;
+       color: white;
+     
+     
+      }
+      .para-film {
+       /* position: absolute; */
+       font-family: Avenir, sans-serif ;
+       font-size: 20px;
+       color: #C0C0C0C0;
+       max-width: 400px;
+       left: 101px;
+      bottom: -2465px;
+      text-align: center;
+     
+     
+     
+      }
+      .devices {
+       /* position: absolute; */
+         left: 798px;
+      }
+     
+     
+      .appareils {
+       /* position: absolute; */
+      left: 890px;
+       font-family: Avenir, sans-serif ;
+       font-size: 28px;
+       color: white;
+       max-width: 381px;
+       text-align: center;
+      }
+     
+     
+      .para-app {
+       /* position: absolute; */
+       font-family: Avenir, sans-serif ;
+       font-size: 20px;
+       color: #C0C0C0C0;
+       max-width: 400px;
+       left: 878px;
+       bottom: -2503px;
+       text-align: center;
+     
+      }
+     
+     
+      .parental {
+       /* position: absolute; */
+         left: 1507px;
+      }
+     
+     
+      .para-parental {
+       /* position: absolute; */
+       left: 1632px;
+        font-family: Avenir, sans-serif ;
+        font-size: 28px;
+        color: white;
+      }
+     
+     
+      .pap {
+       /* position: absolute; */
+       font-family: Avenir, sans-serif ;
+       font-size: 20px;
+       color: #C0C0C0C0;
+       max-width: 400px;
+       left: 1629px;
+       bottom: -2586px;
+      }
+    
+    
+      #bloc04 ul{
+    display: flex;
+      }
+      #bloc04 img{
+        width: 100%;
+      }
+      #bloc04 li{
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+      }
+      #bloc04 h1{
+        width: 100%;
+      }
+      #bloc04 p{
+        width: 100%;
+      }
+     
+      /* -----------------------------------------------------------------------BLOC 4 --------------------------------------------------------------------------------*/
+     
+     
+      /* -----------------------------------------------------------------------BLOC 5 --------------------------------------------------------------------------------*/
+      
+     
+    }
+    
+    .quees {
+       margin-left: 80px;
+      width: 1200px;
+      height: 100px;
+      margin-bottom: 20px;
+      background-color: #13151d;
+      display: inline-block;
+      font-family: Avenir, sans-serif ;
+      
+     
+    }
+   
+    .question{
+     text-align: center;
+     font-size: 26px;
+     margin-bottom: 155px;
+   }
+   
+   .titre5{
+     margin-bottom: 40px;
+   }
+   
+   .ask1,.ask2,.ask3,.ask4,.ask5{
+     width: 86%;
+     margin-bottom: 20px;
+     background-color: #13151d;
+     display:inline-block;
+   }
+   
+   .q1,.q2,.q3,.q4,.q5{
+   font-family: Avenir, sans-serif ;
+   font-weight: 100;
+   font-size: 20px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   text-align:initial;
+   margin-left: 30px;
+   
+   }
+   
+   .plus_moins{
+     position: absolute;
+     font-size: 152%;
+     border: none;
+     background-color: transparent;
+     color: #f9f9f9;
+     margin-top: 1%;
+     margin-left: 38.85%;
+   }
+   
+   
+   .a1,.a2,.a3,.a4,.a5, .lia1{
+   font-family: Avenir, sans-serif ;
+   text-align: left;
+   font-size: 19px;
+   margin-left: 30px;
+   margin-right: 30px;
+   display: none;
+   list-style: circle;
+   color: #C0C0C0C0;
+   }
+   
+   .ask1.active .a1{
+     display: block;
+   }
+   
+   .ask1.active .lia1{
+     display: block;
+     display: list-item;
+     list-style: disc;
+   }
+   
+   
+   .ask2.active .a2{
+     display: block;
+   }
+   
+   .ask2.active .lia1{
+     display: block;
+     display: list-item;
+     list-style: disc;
+   }
+   
+   
+   .ask3.active .a3{
+     display: block;
+   }
+   
+   .ask4.active .a4{
+     display: block;
+   }
+   
+   .ask5.active .a5{
+     display: block;
+   }
+   
+   .ask5.active .lia1{
+     display: block;
+     display: list-item;
+     list-style: decimal;
+   }
+   
+   li,a{
+     font-family: Police2;
+     color: #a6a7a8;
+     margin-bottom: 25px;
+   }
+   
+   
+   /* -----------------------------------------------------------------------BLOC 6 --------------------------------------------------------------------------------*/
+   
+   #bloc06{
+     width: 100%;
+         height: 100vh;
+   }
+   
+   .appareil2 {
+     position: relative;
+     height: 100vh;
+     width: 100%;
+     text-align: center;
+   }
+   
+   .titre6 {
+     position: center;
+     font-size: 250%;
+     font-family: Avenir,sans-serif;
+   }
+   
+   .pc_main,
+   .tv_main,
+   .phone_main,
+   .controller_main {
+     position: center;
+     font-size: 190%;
+     font-family: Avenir,sans-serif;
+     color: white;
+   }
+   
+   .television,
+   .ordinateur,
+   .telephone,
+   .manette {
+     position: relative;
+     right: 2%;
+     margin-left: 2.6%;
+     display: inline-block;
+   }
+   
+   .manette {
+     top: -6.3%;
+   }
+   
+   .telephone {
+     top: -13.9%;
+   }
+   
+   .ordinateur {
+     top: -13.9%;
+   }
+   
+   .pc_img,
+   .tv_img,
+   .phone_img,
+   .controller_img {
+     height: 20vh;
+     width: 100%;
+   }
+   
+   .tv_sub {
+     color: #a6a7a8;
+     font-family: Police2;
+     font-family: Avenir,sans-serif;
+     font-size: 18px;
+     line-height: 28px;
+   }
+   
+   .pc_sub {
+     color: #a6a7a8;
+     font-family: Police2;
+     font-family: Avenir,sans-serif;
+     font-size: 18px;
+     line-height: 28px;
+   }
+   
+   .phone_sub {
+     color: #a6a7a8;
+     font-family: Police2;
+     font-family: Avenir,sans-serif;
+     font-size: 18px;
+     line-height: 28px;
+   }
+   
+   .controller_sub {
+     color: #a6a7a8;
+    
+     font-family: Avenir,sans-serif;
+     font-size: 18px;
+     line-height: 28px;
+   }
+   /* -----------------------------------------------------------------------BLOC 6 --------------------------------------------------------------------------------*/
+   
+   /* -----------------------------------------------------------------------BLOC 7 --------------------------------------------------------------------------------*/
+   
+   #bloc07 {
+     width: 100%;
+     height: 40vh;
+   
+   }
+   
+   .dis {
+   
+     margin-left: 650px;
+   }
+   
+   .gene1,.gene2,.gene3,.gene4 {
+     font-family: Avenir,sans-serif;
+     font-size: 12px;
+     color: #C0C0C0C0;
+     display: flex;
+     flex-direction: row;
+   }
+   
+
+  
